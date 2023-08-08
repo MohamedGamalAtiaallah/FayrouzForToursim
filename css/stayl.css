@@ -1,0 +1,207 @@
+:root {
+  --yellow: #0dd9d8;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Vollkorn SC", serif;
+}
+
+/* start nav */
+nav {
+  display: flex;
+  height: 90px;
+}
+.top-nav {
+  background-color: #ffffff;
+  height: 40px;
+  justify-content: end;
+}
+.top-nav ul li {
+  list-style: none;
+  display: flex;
+  color: black;
+}
+.icons i {
+  color: darkslategrey;
+  font-size: 28px;
+  padding: 2px;
+}
+i:hover {
+  color: var(--yellow);
+}
+.navbar {
+  background-color: #ffffff;
+}
+.brand {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #0dd9d8;
+}
+.brand h1 {
+  margin-top: 10px;
+}
+.iteams {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link {
+  color: darkslategrey;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--yellow);
+}
+.search {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: none;
+  margin: 15px 4px 4px 5px;
+  width: fit-content;
+  height: fit-content;
+  border-color: #0dd9d8;
+}
+.btn:hover {
+  background-color: var(--yellow);
+}
+
+/* end nav */
+.bton {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 20px 20px;
+  margin-top: 50px;
+  margin-bottom: 180px;
+  background-color: #ffffff;
+}
+.bton :hover {
+  background-color: #0dd9d8;
+}
+/* start of section 2 */
+.why {
+  width: 100px;
+  height: 150px;
+}
+
+.feat i {
+  box-shadow: var(--yellow);
+  font-size: 70px;
+}
+
+.feat h3 {
+  color: #343a40;
+}
+.card h3 {
+  color: var(--yellow);
+}
+.card img {
+  width: 100%;
+  height: 210px;
+}
+.card p {
+  text-align: center;
+}
+.feat .icon {
+  margin: 5px auto;
+  padding: 5px;
+}
+.marquee {
+  width: 100%;
+}
+
+#marquee img {
+  /* width: 100%; */
+
+  height: 200px;
+}
+footer {
+  height: 300px;
+  padding: 10px;
+  max-height: fit-content;
+  background-image: url(../images/alfayrouz\ cover.jpg);
+  background-repeat: round;
+  background-size: cover;
+  position: relative;
+}
+.trans::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+footer a {
+  color: #dee5eb;
+  text-decoration: none;
+  padding: 10px;
+}
+footer a:hover,
+footer a:focus {
+  color: var(--yellow);
+  text-decoration: none;
+}
+.footer h1 {
+  font-size: 1.5rem;
+}
+.footer li {
+  list-style: none;
+}
+
+.footer-icons a i {
+  color: var(--yellow);
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 50% #ffcc10 solid;
+}
+.p-footer {
+  width: 200pxpx;
+  text-align: center;
+}
+.CONTANT {
+  width: 200px;
+}
+.CONTANT i {
+  font-size: 30px;
+  color: #777f85;
+}
+.CONTANT p {
+  font-size: 10px;
+  width: 145px;
+  color: #d5dee6;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.CONTANT2 {
+  width: 200px;
+  display: flex;
+}
+.CONTANT2 i {
+  font-size: 35px;
+  color: #777f85;
+}
+.whatsapp i {
+  font-size: 50px;
+  margin-left: 3px;
+  color: #0d9f16;
+  position: sticky;
+}
+.COPY {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  line-height: 50px;
+}
